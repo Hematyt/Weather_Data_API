@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather information for {{station}}</title>
+</head>
+<body>
+    <h2>Temperature information</h2>
+
+    <!-- Text with temp/rain information -->
+    <p>Max temperature: {{ max }}</p>
+    <p>Min temperature: {{ min }}</p>
+    <p>Rainfall total: {{ rain }}</p>
+
+    <!-- Images -->
+    <h2>Chart with Temperature and Rainfall changes</h2>
+    <img src="{{image_url}}" alt="Chart1">
+
+</body>
+</html>

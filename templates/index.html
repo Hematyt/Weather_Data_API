@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data API</title>
+</head>
+<body>
+    <h1>Data from which station do you want to see?</h1>
+    <h2>Select Year</h2>
+    <form action="/Weather_Data_API" method="post">
+        <label for="year">Select Year:</label>
+        <select id="year" name="year" required>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <!-- Add more options for days as needed -->
+
+        </select>
+    <h2>Select Month</h2>
+        <label for="month">Select Month:</label>
+        <select id="month" name="month" required>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+    <h2>Select Station</h2>
+        <label for="station">Select Station:</label>
+        <select id="station" name="station" required>
+            <option value="PSZCZYNA">PSZCZYNA</option>
+            <!-- Add more options for stations -->
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
